@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+Copyright 2002-2004 Aspose Pty Ltd.  All rights reserved.
+This file is part of Aspose.Pdf. The source code in this file 
+is only intended as a supplement to the documentation, and is provided 
+"as is", without warranty of any kind, either expressed or implied.
+-->
+<Pdf xmlns="Aspose.Pdf" Title="Customer Labels" Author="Aspose Support" Producer="Aspose Pty Ltd" Creator="Aspose.Pdf.Demos" Subject="Northwind" Keywords="Pdf Aspose.Pdf Northwind">
+	<Section PageMarginLeft='50' PageMarginRight='50' ID='section1'>
+		<Table ID='table1' IsRowBroken='false' ColumnWidths="150 150 150">
+		</Table>
+	</Section>
+</Pdf>
+

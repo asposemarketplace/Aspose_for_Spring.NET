@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+Copyright 2002-2004 Aspose Pty Ltd.  All rights reserved.
+This file is part of Aspose.Pdf. The source code in this file 
+is only intended as a supplement to the documentation, and is provided 
+"as is", without warranty of any kind, either expressed or implied.
+-->
+<Pdf xmlns="Aspose.Pdf" Title="Catalog" Author="Aspose Support" Producer="Aspose Pty Ltd" Creator="Aspose.Pdf.Demos" Subject="Northwind" Keywords="Pdf Aspose.Pdf Northwind">
+	<Section PageMarginLeft='50' PageMarginRight='50' ID='section1'>
+		<Image Type="jpeg" ID='Logo'>
+			<Title FontName='Times-BoldItalic' FontSize='18' Color='rgb 128 0 0' >Fall Catalog</Title>
+		</Image>
+		<Table MarginTop='300' MarginLeft='150'>
+			<Border>
+				<All LineWidth="0.2"></All>
+			</Border>
+			<Row>
+				<Cell FitWidth="200" PaddingLeft="10" PaddingRight="10" PaddingBottom="5">
+					<Text MarginLeft='10'>
+						<Segment FontName='Times-BoldItalic' FontSize='16' Color='rgb 128 0 0'>
+						Commitment to Quality</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment Color='rgb 128 0 0' FontSize='13' FontName='Times-BoldItalic'>
+						Northwind traders is commited to bring your products of 
+						the highest quality from all over the world. If at any time you are not 
+						completely satisfied with any of our products, you may return them 
+						to us for a full refund.</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Text IsFirstParagraph='true' FontName='Times-BoldItalic' FontSize='17' Color='rgb 0 0 160' Alignment='center'>
+			<Segment>Tour the Gastronomic</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='17' Color='rgb 0 0 160' Alignment='center'>
+			<Segment>World with Northwind Traders!</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='14' Color='rgb 0 0 160' MarginLeft='100' 
+			MarginRight='100' MarginTop='20'>
+			<Segment>When Northwind Traders buyers set out to search for the Wonders of the Gastronomic 
+			World they found a lot more than seven of them. And here they are--tastefully presented in 
+			our Fall Catalog.</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='14' Color='rgb 0 0 160'  MarginLeft='100'
+			MarginRight='100' MarginTop='20'>
+			<Segment>The beverages and confections we're featuring this fall 
+			are sure to please even the most discerning palates.</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='14' Color='rgb 0 0 160' MarginLeft='100' 
+			MarginRight='100' MarginTop='20'>
+			<Segment>For thirst quenchers, try exotic Chang, hearty Laughing Lumberjack Lager, 
+			robust Rhönbräu Klosterbier, and refreshing Lakkalikööri.</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='14' Color='rgb 0 0 160' MarginLeft='100' 
+			MarginRight='100' MarginTop='20'>
+			<Segment>And for a taste of something sweet, try Pavlova, the intriguing meringue dessert 
+			from Australia; Teatime Chocolate Biscuits from England, tasty Maxilaku from Finland; 
+			and the Berlin speciality, NuNuCa Nuß-Nougat-Creme.</Segment>
+		</Text>
+		<Text FontName='Times-BoldItalic' FontSize='14' Color='rgb 0 0 160' MarginLeft='100' 
+			MarginRight='100' MarginTop='20'>
+			<Segment>Our sales representatives are ready to take your orders now. For your 
+			convenience, we've included details on ordering on the last page of this catalog.</Segment>
+		</Text>
+	</Section>
+	<Section PageMarginLeft='50' PageMarginRight='50' ID='section2'>		
+		<Footer>
+			<Graph Width="470" Height="20">
+				<Rectangle Position="0 0 470 15" Color='gray 204' FillColor='gray 204' IsFilled='true'/>
+				<Note Position='150 5'  Color='rgb 0 0 160'>NorthWind Traders - Fall Catalog</Note>
+			</Graph>
+			<Text Alignment="center">
+				<Segment IsSymbolReplaceable="true"  Color='rgb 0 0 160'>
+				Page $p</Segment>
+			</Text>
+		</Footer>
+		<Table IsFirstParagraph='true' ID='BeverageTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Beverages</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						soft drinks, coffees,</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						teas, beers and ales</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='BeverageTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table IsFirstParagraph='true' ID='CondimentsTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Condiments</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						sweet and savory</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						sauces, relishes</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						spreads and reasonings</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='CondimentsTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell  BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table IsFirstParagraph='true' ID='ConfectionsTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Confections</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Desserts, candies and</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						sweet breads</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='ConfectionsTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table IsFirstParagraph='true' ID='DairyTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Dairy Products</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Cheeses</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='DairyTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='GrainsTable' MarginLeft='20' MarginTop='20'>
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Grains/Cereals</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Breads, crackers</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						pasta and cereal</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='GrainsTable1' MarginLeft='20' MarginTop='30'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table IsFirstParagraph='true' ID='MeatTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Meat/Poultry</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Prepared meats</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='MeatTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table  ID='ProduceTable' MarginLeft='20' MarginTop='30'>
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Produce</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Dried fruit and bean</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						curd</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='ProduceTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		<Table IsFirstParagraph='true' ID='SeafoodTable' MarginLeft='20' >
+			<Row>
+				<Cell FitWidth="250">
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='14' Color='rgb 0 0 160'>
+						Seafood</Segment>
+					</Text>
+					<Text MarginTop='5'>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Seaweed and fish</Segment>
+					</Text>
+				</Cell>
+				<Cell FitWidth="160">
+					<Image Type='jpeg'></Image>
+				</Cell>
+			</Row>
+		</Table>
+		<Table ID='SeafoodTable1' MarginLeft='20' MarginTop='20'
+			 ColumnWidths="170 90 110 90">
+			<Border>
+				<Bottom Color='gray 204'  />
+			</Border>
+			<Row>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Product Name:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='center'>
+						Product ID:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text>
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160'>
+						Quantity Per Unit:</Segment>
+					</Text>
+				</Cell>
+				<Cell BackgroundColor='gray 204' PaddingTop='2' PaddingBottom='2'>
+					<Text Alignment="Right">
+						<Segment FontName='Times-Bold' FontSize='10' Color='rgb 0 0 160' Alignment='right'>
+						Unit Price:</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+	</Section>
+</Pdf>
+

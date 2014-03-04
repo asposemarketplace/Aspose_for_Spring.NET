@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+Copyright 2002-2004 Aspose Pty Ltd.  All rights reserved.
+This file is part of Aspose.Pdf. The source code in this file 
+is only intended as a supplement to the documentation, and is provided 
+"as is", without warranty of any kind, either expressed or implied.
+-->
+<Pdf xmlns="Aspose.Pdf" Title="Products by Category" Author="Aspose Support" Producer="Aspose Pty Ltd" Creator="Aspose.Pdf.Demos" Subject="Northwind" Keywords="Pdf Aspose.Pdf Northwind">
+	<Section PageWidth='1042' PageHeight='695' PageMarginLeft='50' PageMarginRight='50' ID='section1'>
+		<Footer>
+			<Text>
+				<Segment Alignment="center" IsSymbolReplaceable="true"> page $p</Segment>
+			</Text>
+		</Footer>
+		<Table>
+			<Row>
+				<Cell BackgroundColor="gray 160" FitWidth="940">
+					<Text>
+						<Segment FontName='Helvetica-BoldOblique' FontSize='20'>Products by Category</Segment>
+					</Text>
+					<Text ID='Date' MarginTop='10' MarginBottom="10">
+						<Segment FontSize='16'>$D</Segment>
+					</Text>
+				</Cell>
+			</Row>
+		</Table>
+		
+	</Section>
+</Pdf>
+
