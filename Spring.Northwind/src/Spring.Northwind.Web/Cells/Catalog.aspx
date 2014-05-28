@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Shared/MasterPage.master" AutoEventWireup="true" CodeBehind="Catalog.aspx.cs" Inherits="Spring.Northwind.Web.Cells.Catalog" %>
 
+<%-- Copyright (c) Aspose 2002-2014. All Rights Reserved.--%>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
     <h2>Create Product Catalog report using Aspose.Cells for .NET</h2>
     <div class="componentDescriptionTxt">

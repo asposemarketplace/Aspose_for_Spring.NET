@@ -18,6 +18,8 @@
 
 #endregion
 
+// Copyright (c) Aspose 2002-2014. All Rights Reserved.
+
 #region Imports
 
 using System;

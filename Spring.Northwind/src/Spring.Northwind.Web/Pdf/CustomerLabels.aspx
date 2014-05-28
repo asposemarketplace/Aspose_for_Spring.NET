@@ -1,4 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Shared/MasterPage.master" AutoEventWireup="true" CodeBehind="CustomerLabels.aspx.cs" Inherits="Spring.Northwind.Web.Pdf.CustomerLabels" %>
+<%--Copyright (c) Aspose 2002-2014. All Rights Reserved.--%>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
 

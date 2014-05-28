@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Shared/MasterPage.master" AutoEventWireup="true" CodeBehind="ProductsbyCategory.aspx.cs" Inherits="Spring.Northwind.Web.Cells.ProductsbyCategory" %>
+ <%--Copyright (c) Aspose 2002-2014. All Rights Reserved.--%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
 
